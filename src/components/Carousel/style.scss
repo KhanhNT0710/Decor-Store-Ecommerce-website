@@ -55,3 +55,33 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .carousel-container {
+    padding: 0 15px;
+  }
+
+  .carousel .carousel__item {
+    height: 250px; // Adjust as needed for smaller screens
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 0 10px;
+    max-width: 80%;
+  }
+
+  .carousel .carousel__item {
+    height: 200px; // Adjust as needed for smaller screens
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+display: none;  
+}
+
+  .carousel .carousel__item {
+    height: 150px; // Adjust as needed for smaller screens
+  }
+}

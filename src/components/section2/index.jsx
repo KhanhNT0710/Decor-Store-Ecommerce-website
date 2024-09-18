@@ -18,7 +18,7 @@ const Section2 = () => {
                     <div className="section2-left">
                         <h5 className="section2-left__title">CÁCH DECOR PHÒNG TRỌ ĐẸP NHƯ CĂN HỘ MINI VỚI GIÁ SINH VIÊN </h5>
                         <p className="section2-left__description">
-                            Đối với nhiều người đi học và đi làm xa, phòng trọ giống như ngôi nhà thứ 2. Đây là nơi để mọi người trở về sau một ngày mệt mỏi và tái tạo năng lượng cho ngày mới. Nhưng không phải ai cũng có đủ thời gian và kinh phí để trang hoàng lại nơi ở này. Hôm nay, Yi Decor sẽ gợi ý cho bạn những tips nhỏ giúp decor phòng trọ đẹp như căn hộ mini với giá sinh viên!
+                            Đối với nhiều người đi học và đi làm xa, phòng trọ giống như ngôi nhà thứ 2. Đây là nơi để mọi người trở về sau một ngày mệt mỏi và tái tạo năng lượng cho ngày mới. Nhưng không phải ai cũng có đủ thời gian và kinh phí để trang hoàng lại nơi ở này. Hôm nay, Decor Store sẽ gợi ý cho bạn những tips nhỏ giúp decor phòng trọ đẹp như căn hộ mini với giá sinh viên!
                         </p>
                         <div className="section2-left__btn-show">
                             <Button onClick={handleRedirectToProductPage}>ĐỌC TIẾP</Button>

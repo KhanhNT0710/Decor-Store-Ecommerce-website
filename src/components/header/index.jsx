@@ -82,11 +82,11 @@ const HeaderComponent = () => {
     return (
         <div className="header-container">
             <div className="header-container-top-header">
-                <div className="header-container-top-header__title">Yi Decor - Trang trí góc nhà</div>
+                <div className="header-container-top-header__title">Decor Store - Trang trí góc nhà</div>
                 <div className="header-container-top-header__contact">
                     <a href="/"><FacebookOutlined /></a>
                     <a href="/"><MailOutlined /></a>
-                    <a href="/"><PhoneOutlined /></a>
+                    <a href="tel:+84123456789"><PhoneOutlined /></a>
                 </div>
             </div>
             <div className="header-container-menu-bar row d-flex">
@@ -158,7 +158,7 @@ const HeaderComponent = () => {
                                         </Link>
                                     </div>
                                     <ul className="header-navBar__subNavProduct" >
-                                        <li className="header-navBar__subNavProduct-item" value={"Trang Trí Để Bàn"} onClick={handleRedirectToProductPage}>
+                                        <li className="header-navBar__subNavProduct-item" onClick={handleRedirectToProductPage}>
                                             <span>Trang trí để bàn</span>
                                         </li>
                                         <li className="header-navBar__subNavProduct-item" onClick={handleRedirectToProductPage}>
@@ -200,9 +200,8 @@ const HeaderComponent = () => {
                                     </Link>
                                 </li>
                                 <li className="header-navBar__listItem">
-                                    <Link to={ROUTES.PRODUCT_PAGE}>
-                                        <span >LIÊN HỆ</span>
-                                    </Link>
+                                    <a href="tel:+84123456789"> <span >LIÊN HỆ</span></a>
+
                                 </li>
                             </ul>
                         </div>
